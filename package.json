@@ -1,0 +1,14 @@
+{
+  "name": "qa-portfolio",
+  "version": "1.0.0",
+  "description": "API and UI test automation with Playwright (JavaScript), plus SQL data validation checks",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
